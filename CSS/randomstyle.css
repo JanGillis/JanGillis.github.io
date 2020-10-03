@@ -7,7 +7,10 @@ h1,h2 {
     color: darkred;
     background-color: rosybrown;
 }
-p {
+p{
+    width: 200px;
+    margin:0 auto;
     color: dimgray;
     background-color: hsl(120,60%,78%);
+    font-size: 5em;
 }
