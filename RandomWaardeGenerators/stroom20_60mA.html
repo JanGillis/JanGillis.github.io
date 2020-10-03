@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random stroom 20-60mA.</title>
+    <link rel="stylesheet" href="../CSS/randomstyle.css">
+</head>
+
+<body>
+
+    <h1>Random stroomwaarde.</h1>
+
+    <p id="randomwaarde"><b id="waarde"></b> mA</p>
+
+    <script>
+        window.onload = function () {
+            document.getElementById("waarde").innerHTML = getRandomArbitrary(20, 60);
+        }
+
+        function getRandomArbitrary(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+    </script>
+
+</body>
+
+</html>
