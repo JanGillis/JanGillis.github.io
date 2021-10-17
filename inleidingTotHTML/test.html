@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="/CSS/style.css">
+  </head>
 
-<body>
-<section id="BOM" class="BOM"> 
- <iframe width="720" height="480" frameborder="0" src="https://ptiz-my.sharepoint.com/:x:/g/personal/jan_gillis_richtpuntzottegem_be/EZ6z7vpRsd5GrVPNixvpeucB6tyZX6IXPsOCRqHOL2fuUw?e=vDi66C&amp;action=embedview&amp;wdAr=1.7777777777777777"></iframe>
- </section><!-- End Contact Section -->
-<section id="contact" class="contact">
+  <body>
+    <section id="BOM" class="BOM">
+      <iframe width="720" height="480" frameborder="0" src="https://ptiz-my.sharepoint.com/:x:/g/personal/jan_gillis_richtpuntzottegem_be/EZ6z7vpRsd5GrVPNixvpeucB6tyZX6IXPsOCRqHOL2fuUw?e=vDi66C&amp;action=embedview&amp;wdAr=1.7777777777777777"></iframe>
+    </section>
+    <!-- End Contact Section -->
+    <section id="contact" class="contact">
       <div class="container">
 
         <div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.905424724437!2d3.822682432379551!3d50.869950600357555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3a0acfb97e345%3A0xcde13ed5e9efdd25!2sRichtpunt%20campus%20Zottegem%20(PTI)!5e0!3m2!1snl!2sbe!4v1603802377777!5m2!1snl!2sbe" width="100%" height="270" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>  
+        </div>
         <div>
-          <p> <a href="https://cofc.teamdynamix.com/TDClient/1802/Portal/KB/ArticleDet?ID=113397">howto</a> </p>
+          <p>
+            <a href="https://cofc.teamdynamix.com/TDClient/1802/Portal/KB/ArticleDet?ID=113397">howto</a>
+          </p>
         </div>
 
+        <div style='display: flex; justify-content: center;'>
+          <a class='rollover' href="#"></a>
+        </div>
         <div class="row mt-5">
 
           <div class="col-lg-4">
@@ -34,7 +41,9 @@
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p><a href="mailto:info@richtpuntzottegem.be">info@richtpuntzottegem.be</a></p>
+                <p>
+                  <a href="mailto:info@richtpuntzottegem.be">info@richtpuntzottegem.be</a>
+                </p>
               </div>
 
               <div class="phone">
@@ -52,16 +61,16 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"/>
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"/>
                 <div class="validate"></div>
               </div>
               <div class="form-group">
@@ -73,7 +82,9 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Alvast bedankt.</div>
               </div>
-              <div class="text-center"><button type="submit">Verstuur bericht.</button></div>
+              <div class="text-center">
+                <button type="submit">Verstuur bericht.</button>
+              </div>
             </form>
 
           </div>
@@ -81,8 +92,9 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
- 
-</body>
+    </section>
+    <!-- End Contact Section -->
+
+  </body>
 
 </html>
